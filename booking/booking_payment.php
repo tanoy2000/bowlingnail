@@ -78,6 +78,7 @@
                         <li><a href="../booking/booking_nailer.php">
                                 <i class="fas fa-calendar-alt icon"></i>
                                 <!-- comment -->
+                                <!-- dfisujfiu -->
                                 <p>เลือกวัน / เวลา และช่างทำเล็บ</p>
                             </a></li>
 
