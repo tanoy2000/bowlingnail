@@ -77,9 +77,6 @@
 
                         <li><a href="../booking/booking_nailer.php">
                                 <i class="fas fa-calendar-alt icon"></i>
-                                <!-- comment -->
-                                <!-- dfisujfiu -->
-                                <!-- yyeyeyeyeyeyeyey -->
                                 <p>เลือกวัน / เวลา และช่างทำเล็บ</p>
                             </a></li>
 
@@ -87,8 +84,6 @@
                                 <i class="fas fa-money-check icon"></i>
                                 <p>ชำระเงิน / ยืนยันการจอง</p>
                             </a></li>
-                            <!-- D kabbb -->
-
                     </ul>
                 </div>
             </div>
