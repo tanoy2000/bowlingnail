@@ -1,0 +1,857 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    font-family: 'Prompt', sans-serif;
+    background-image: '../img/bg/bg1.jpg';
+    background-attachment: fixed;
+}
+
+.wrapper ul li a{
+    text-decoration: none;
+}
+
+/* booking */
+#header_booking h2{
+    text-align:center; 
+    color:#8B2500; 
+    font-size:25px; 
+    margin-top:80px;
+}
+#cart_booking{
+    margin-top:-25px;
+}
+#table_booking{
+    text-align:center; 
+    margin-top:-70px; 
+    width:100%; 
+    background-color:white;
+    border-radius: 25px;
+}
+#time_book1{
+    margin-top: 16px;
+}
+#time_book2{
+    margin-top: 23px;
+
+}
+#img_book{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin: auto;
+    display: block;
+}
+#payment p{
+    float: right;
+}
+#payment .fname{
+    float: left;
+}
+
+/* index */
+.header_map {
+    text-align:center; 
+    font-size:22px; 
+    margin-bottom:-2px;
+}
+.small_map {
+    text-align:center; 
+    font-size:14px; 
+    color:gray;
+     margin-bottom:-3px;
+}
+#index_menu a{
+    text-decoration: none;
+}
+#menu_page .card-title{
+    font-size:24px;
+}
+.card-header img{
+    width:6rem;
+}
+.header-text{
+    font-size:56px; 
+    text-shadow: white 0.15em 0.05em 0.2em;               
+    font-weight: 800; 
+    color:#8B2500; 
+    margin-bottom:-16px;
+}
+.small_text{
+    font-size:40px; 
+    text-shadow: black 0.15em 0.05em 0.2em;
+}
+#small-img img{
+    opacity: 0.4;
+}
+/* #renail-img{
+
+} */
+
+/* btn */
+#btn-book{
+    width:30%;
+    color: #FFFFFF !important;
+    background-color: #FF9900;
+    display: none;
+}
+#btn-book:hover{
+    width:30%;
+    color: #FF9900 !important;
+    background-color: #FFFFFF !important;
+    margin: auto !important;
+    display: block !important;
+}
+#btn-small{
+    color: #FFFFFF !important;
+    background-color: #8B2500 !important;
+}
+#btn-small:hover{
+    color: #8B2500 !important;
+    background-color: #FFFFFF !important;
+}
+
+/* user */
+.col p{
+    text-align: center; 
+    font-size:26px; 
+    color:#8B2500; 
+    display:block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.spanb-table{
+    display:block; 
+    margin:auto; 
+    width:200px; 
+    padding-bottom:5px;
+}
+
+/* user profile */
+#header-card{
+    flex-direction: row; 
+    align-items: center; 
+    width: 100%; 
+    padding:30px; 
+    background-color:white;
+}
+#header-card img {
+    width: 30%; 
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: calc(0.25rem - 1px);
+}
+#header-card .card{
+    margin-left: 30px;
+}
+#text-header label{
+    float:right;
+    font-size:20px;
+}
+#user-header p{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:150px;
+    margin-bottom:50px;
+}
+#user-header h6{
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+/* spa */
+#img-spa img{
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#text-spa .card-title p{
+    font-size:26px;
+    margin-bottom: -10px;
+}
+.card-text2{
+    position: relative;
+    width: 30%;
+    background: transparent;
+    display: flex;
+    gap: .3em;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 2px #b3acac;
+}
+.card-text3{
+    margin-top: -10px;
+}
+.card-title p i{
+    color: #8B2500;
+}
+
+/* payment */
+#payment-nail .col-2 label{
+    float: right;
+}
+
+/* success */
+
+/* #success i .bi .bi-check-circle-fill::before{
+    width: 500px !important;
+} */
+#success-img img{
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+#success-header p{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+#success-p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #8B2500;
+}
+#success-btn .btn{
+    margin: auto;
+    display: inline-block;
+    
+}
+
+/* payment */
+#payment p{
+    font-size: 24px;
+    color: #8B2500;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFAEB9;
+}
+#payment-header h2{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+/* booknailer */
+#booknailer-header h2{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+/* booknail */
+#booknail-header h2{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:150px;
+    margin-bottom:100px;
+}
+
+/* renail */
+#renail-header p{
+    text-align: center;
+    color: #8B2500;
+    font-size: 28px;
+    border-bottom: solid 3px #8B2500;
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+#renail-header h6{
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+  
+}
+#card-renail .card {
+    border-radius: 10px;
+}
+#card-renail .card h5{
+    border-radius: 5px;
+    text-align: center;
+    color: #8B2500;
+}
+#card-renail .card p{
+    border-radius: 5px;
+    text-align: center;
+    color: gray;
+    margin-top: -10px;
+}
+#card-renail img{
+    border-radius: 5px;
+}
+
+#btn_editnail ul li{
+    margin: auto;
+    display: block;
+    list-style-type: none;
+    display:inline;
+}
+  
+#btn_editnail  li a {
+    display:inline;
+    color: #8B2500;
+    padding: 8px 16px;
+    width: 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #FFAEB9;
+    border-radius: 25px;
+    margin: 10px;
+}
+  
+#btn_editnail li a.active {
+    background-color: #FFAEB9;
+    color: #8B2500;
+}
+  
+#btn_editnail li a:hover:not(.active) {
+    background-color: #FFAEB9;
+    color: #8B2500;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    }
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 300px) 
+    {.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 300px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #renail-header p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 70px;
+    }
+    #renail-header h6{
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    #renail-img{
+        max-width: 100%;
+    }
+    #card #card-renail{
+        width: 50%;
+    }
+    #card-renail img {
+        width: 100%;
+        margin: auto;
+        display: block;
+        font-size: 16px;
+    }
+    #card-renail h5 p{
+        width: 50%;
+        font-size: 16px;
+    }
+
+    
+    }
+
+    @media only screen and (min-width: 280px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    
+        #renail-header p{
+            width: 200%;
+            font-size: 22px;
+            margin-top: 100px;
+            margin-left: -1.2em;
+        }
+        #renail-header h6{
+            width: 150%;
+            font-size: 10px;
+            margin-bottom: 10px;
+            margin-left: -1.2em;
+        }
+        #renail-img{
+            max-width: 100%;
+        }
+        #card #card-renail{
+            width: 50%;
+        }
+        #card-renail img {
+            width: 100%;
+            margin: auto;
+            display: block;
+            font-size: 16px;
+        }
+        #card-renail .card-title{
+            font-size: 16px;
+        }
+        #card-renail h5 p{
+            width: 50%;
+            font-size: 12px;
+        }
+    
+        
+        }
+
+    @media only screen and (min-width: 360px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    
+        #renail-header p{
+            width: 160%;
+            font-size: 24px;
+            margin-top: 70px;
+            margin-left: -1em;
+        }
+        #renail-header h6{
+            width: 100%;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        #renail-img{
+            max-width: 100%;
+        }
+        #card #card-renail{
+            width: 50%;
+        }
+        #card-renail img {
+            width: 100%;
+            margin: auto;
+            display: block;
+            font-size: 16px;
+        }
+        #card-renail h5 p{
+            width: 50%;
+            font-size: 16px;
+        }
+    
+        
+        }
+
+    @media only screen and (min-width: 375px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    
+        #renail-header p{
+            width: 150%;
+            font-size: 24px;
+            margin-top: 70px;
+            margin-left: -1em;
+        }
+        #renail-header h6{
+            width: 100%;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        #renail-img{
+            max-width: 100%;
+        }
+        #card #card-renail{
+            width: 50%;
+        }
+        #card-renail img {
+            width: 100%;
+            margin: auto;
+            display: block;
+            font-size: 16px;
+        }
+        #card-renail h5 p{
+            width: 50%;
+            font-size: 16px;
+        }
+    
+        
+        }
+    
+
+    @media only screen and (min-width: 393px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    
+        #renail-header p{
+            width: 150%;
+            font-size: 26px;
+            margin-top: 70px;
+            margin-left: -1em;
+        }
+        #renail-header h6{
+            width: 100%;
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+        #renail-img{
+            max-width: 100%;
+        }
+        #card #card-renail{
+            width: 50%;
+        }
+        #card-renail img {
+            width: 100%;
+            margin: auto;
+            display: block;
+            font-size: 16px;
+        }
+        #card-renail h5 p{
+            width: 50%;
+            font-size: 16px;
+        }
+    
+        
+        }
+
+        @media only screen and (min-width: 412px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        
+            #renail-header p{
+                width: 150%;
+                font-size: 24px;
+                margin-top: 70px;
+                margin-left: -1em;
+            }
+            #renail-header h6{
+                width: 100%;
+                font-size: 10px;
+                margin-bottom: 10px;
+                margin-left: -0.3em;
+            }
+            #renail-img{
+                max-width: 100%;
+            }
+            #card #card-renail{
+                width: 50%;
+            }
+            #card-renail img {
+                width: 100%;
+                margin: auto;
+                display: block;
+                font-size: 16px;
+            }
+            #card-renail .card-title{
+                font-size: 22px;
+            }
+            #card-renail h5 p{
+                width: 50%;
+                font-size: 16px;
+            }
+        
+            
+            }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) 
+    {.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 400px) {
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+
+        #renail-header p{
+            width: 150%;
+            font-size: 26px;
+            margin-left: -1em;
+        }
+        #renail-header h6{
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        #card #card-renail{
+            width: 50%;
+        }
+        #card-renail img {
+            width: 100%;
+            margin: auto;
+            display: block;
+            font-size: 16px;
+        }
+        #card-renail h5 p{
+            width: 50%;
+            font-size: 16px;
+        }
+
+        }
+
+        @media only screen and (min-width: 820px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+    
+            #renail-header p{
+                width: 150%;
+                font-size: 40px;
+                margin-left: -1em;
+            }
+            #renail-header h6{
+                width: 150%;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-left: -2.5em;
+            }
+            #card #card-renail{
+                width: 50%;
+            }
+            #card-renail img {
+                width: 100%;
+                margin: auto;
+                display: block;
+                font-size: 16px;
+            }
+            #card-renail .card-title{
+                font-size: 16px;
+            }
+            #card-renail h5 p{
+                width: 50%;
+                font-size: 16px;
+            }
+    
+            }
+
+
+        @media only screen and (min-width: 912px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+    
+            #renail-header p{
+                width: 150%;
+                font-size: 40px;
+                margin-left: -1em;
+            }
+            #renail-header h6{
+                width: 150%;
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-left: -2.5em;
+            }
+            #card #card-renail{
+                width: 50%;
+            }
+            #card-renail img {
+                width: 100%;
+                margin: auto;
+                display: block;
+                font-size: 16px;
+            }
+            #card-renail h5 p{
+                width: 50%;
+                font-size: 16px;
+            }
+    
+            }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }

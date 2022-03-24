@@ -1,0 +1,702 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    font-family: 'Prompt', sans-serif;
+    background-image: '../img/bg/bg1.jpg';
+    background-attachment: fixed;
+}
+
+/* menu */
+#menu{
+    background-color: #FFAEB9;
+   
+}
+.nav-link, a:visited{
+    color: #8B2500 !important;
+}
+
+.nav-link :hover{
+    color: white !important;
+}
+
+#menu_nail ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: #8B7B8B 2px 0px 2px;
+  }
+  
+  #menu_nail  li a {
+    margin: auto;
+    display: block;
+    color: #8B2500;
+    padding: 8px 16px;
+    width: 200px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #FFAEB9;
+    border-radius: 15px;
+    margin: 20px;
+  }
+  
+  #menu_nail li a.active {
+    background-color: #FFAEB9;
+    color: #8B2500;
+  }
+  
+  #menu_nail li a:hover:not(.active) {
+    background-color: #FFAEB9;
+    color: #8B2500;
+  }
+  #menu_nail h4{
+    padding-left: 10%;
+  }
+#menu_detail{
+    background-color:white;
+    color: #8B2500;
+    border-radius: 5px;
+}
+#menu_user{
+    background-color:white;
+    color: #8B2500;
+    border-radius: 5px;
+}
+
+#menupage{
+    font-size: 24px;
+    color: black;
+   background-color:#FFFFFF;
+}
+#menupage:hover{
+   color: #FFFFFF;
+   background-color: #FFAEB9;  
+   transition: 500ms;
+}
+
+/* header not login*/
+#index_header a p{
+    font-size: 24px;
+}
+#index_recom p .card-header{
+    text-decoration: none;
+}
+#index_recom img{
+    width:100px;
+}
+#index_recom a{
+    text-decoration: none;
+}
+#menu_page{
+    width: 16rem;
+}
+#index_map .p1{
+    text-align:center; 
+    font-size:22px;
+    margin-bottom:-2px;
+}
+#index_map .p2{
+    text-align:center; 
+    font-size:14px; 
+    color:gray; 
+    margin-bottom:-3px;
+}
+
+/* header user */
+
+/* header admin */
+#header h2{
+    text-align: center; 
+    color: palevioletred;
+}
+#header_data a img{
+    width:70%; 
+    padding-top:20px;
+ 
+}
+#header_data {
+    width:70%; 
+    padding-top:20px;
+}
+
+
+/* ตัวหนังสือ */
+#all{
+    float: right;
+    text-decoration: none;
+    color: #8B7B8B;
+}
+#all:hover{
+    float: right;
+    text-decoration: none;
+    color: #8B2500;
+}
+.underline{
+    font-size: 25px;
+}
+
+.userlogin, .login-link{
+    text-align: center;
+    text-decoration: none;
+    color: palevioletred;
+}
+.userlogin, .login-link:hover{
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+.userlogin{
+    text-align: center;
+    color: #8B7B8B;
+}
+.register-link{
+    text-decoration: none;
+    float: left;
+    color: palevioletred;
+}
+.register-link:hover{
+    text-decoration: none;
+    float: left;
+    color: red;
+}
+.forgot-link{
+    text-decoration: none;
+    float: right;
+    color: palevioletred;
+}
+.forgot-link:hover{
+    text-decoration: none;
+    float: right;
+    color: red;
+}
+strong{
+    float: left;
+    font-size: 16px;
+    
+}
+/* #form_payment{
+    float: left;
+    font-size: 16px;
+} */
+
+
+/* img */
+#edit{
+    box-shadow: palevioletred 5px 5px 5px !important;
+    border-width: 2px;
+}
+#user{
+    box-shadow: palevioletred 5px 5px 5px !important;
+    border-width: 2px;
+}
+#nailer{
+    box-shadow: palevioletred 5px 5px 5px !important;
+    border-width: 2px;
+}
+/* continer */
+#edit_nail{
+    padding-top: 130px;
+}
+#user_nail{
+    padding-top: 130px;
+}
+
+
+
+/* button */
+.login{
+    color: white;
+    background-color: #EE7600;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    transition: 400ms;
+}
+.login:hover{
+    background-color: white;
+    color: #EE7600;
+    border: 2px solid #EE7600;
+    transition: 400ms;
+}
+.regis{
+    color: white;
+    background-color: #576B9E;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    transition: 400ms;
+}
+.regis:hover{
+    background-color: white;
+    color: #576B9E;
+    border: 2px solid #576B9E;
+    transition: 400ms;
+}
+.cencel{
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: block;
+    transition: 400ms;
+}
+.cencel:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red; 
+}
+#btn_status{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #733938;
+}
+#btnlogin {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #EE7600;
+    transition: 400ms;
+}
+#btnlogin:hover{
+    background-color: white;
+    color: #EE7600 !important;
+}
+#btnregis{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #576B9E;
+    transition: 400ms;
+}
+#btnregis:hover{
+    background-color: white;
+    color: #576B9E !important;
+}
+.btn-warning{
+    background-color: #FF9933 !important;
+    color: white !important;
+    float: right;
+}
+.btn-success {
+    color: white;
+}
+
+/* .btn-primary{
+    background-color: #576B9E !important;
+    color: white !important;
+}
+.btn-primary:hover{
+    background-color: white !important;
+    color: #576B9E !important;
+} */
+
+
+
+/* card */
+#card_edituser{
+    padding-top: 40px;
+}
+
+
+/* booking */
+.decoration{
+    text-align:center; /* ตำแหน่งที่จะให้เส้นอยู่ Left/Right/Center */
+}
+.decoration .decoration-inside{
+    height: 100%; /* ความสูงของเส้น */
+    width: 1px; /* ความหนาของเส้น */
+    background-color: black; /* สีของเส้น */
+    display:block;
+}
+
+/* basket */
+.nav-item .basket-num .basket  {
+    background-color: white !important;
+    color: #8B2500 !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+}
+
+
+/* ข้อมูลส่วนตัว */
+#user_profile{
+    padding-top: 10px;
+}
+
+#userpf{
+    box-shadow: palevioletred 5px 5px 5px !important;
+    border-color: red;
+    border-width: 2px;
+    width: 65%;
+    display: block;
+    margin: auto;
+    
+}
+
+/* header table */
+.header-data{
+    margin-bottom: -30px;
+    font-size: 22px;
+}
+
+/* leave_nailer */
+.confirm_leave {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+.confirm_leave button {
+    background-color: #8B2500 !important;
+    color: white !important;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+}
+.confirm_leave button:hover {
+    background-color: #FFAEB9 !important;
+    color: #8B2500 !important;
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+}
+#leave_begin {
+    width: 500px !important;
+}
+#leave_end{
+    width: 500px !important;
+}
+#leave_date{
+    width: 500px !important;
+}
+
+#payment-nail img{
+    border-radius: 5px;
+}
+
+/* Radio button */
+.pz p{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+.pz b{
+    color: #0033FF;
+}
+.py p {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+.py b{
+    font-size: 35px;
+    color: #0033FF;
+}
+.px b{
+    font-size: 30px;
+    color: #0033FF;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.content{
+    margin: -10px;
+    padding: 0px;
+    max-width: 500px;
+    /* text-align: center; */
+  }
+  .dpx{
+    margin: 30px;
+    display:flex;
+    justify-content:space-around;
+  }
+  label{
+    display:block;
+    line-height:5px;
+  }
+  .option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  .option-input:hover {
+    background: #9faab7;
+  }
+  .option-input:checked {
+    background: #0033FF;
+  }
+  .option-input:checked::before {
+    width: 40px;
+    height: 40px;
+    display:flex;
+    content: '\f00c';
+    font-size: 25px;
+    font-weight:bold;
+    position: absolute;
+    align-items:center;
+    justify-content:center;
+    font-family:'Font Awesome 5 Free';
+  }
+  .option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #40e0d0;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .option-input.radio {
+    border-radius: 50%;
+  }
+  .option-input.radio::after {
+    border-radius: 50%;
+  }
+  
+  @keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.35;
+      position: relative;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+      margin-left: -80px;
+      margin-top: -80px;
+      opacity: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body {
+      padding: 0.5em 1.2em;
+    }
+    .card-body .card-text {
+      margin: 0;
+    }
+    .card img {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .card img {
+      width: 40%;
+    }
+    
+  }
+
+  /* image */
+  #image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container-img:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    }
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 300px) 
+    {.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 300px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    
+    }
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) 
+    {.col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
